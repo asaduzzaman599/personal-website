@@ -98,6 +98,7 @@ h4 {
     background-color: rgb(238, 225, 207);
 }
 
+
 .text-content-part {
     width: 60%;
     padding-top: 30px;
@@ -113,6 +114,14 @@ h4 {
 
 .image-part img {
     width: 90%;
+}
+
+.devoloping-section {
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 60px;
+    background-size: 15%;
 }
 
 footer {
