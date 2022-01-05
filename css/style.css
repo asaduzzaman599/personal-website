@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Frank Ruhl Libre', serif;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 .flexible-container {
@@ -15,6 +16,7 @@ body {
     font-size: 50px;
     font-weight: 700;
     color: rgb(46, 81, 87);
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 p {
@@ -23,9 +25,6 @@ p {
 
 }
 
-.flexible-container p {
-    font-family: 'Open Sans', sans-serif;
-}
 
 .main-heading-part {
     margin-top: 60px;
@@ -33,6 +32,7 @@ p {
 
 h3 {
     font-size: 30px;
+    color: rgb(63, 65, 65);
 }
 
 h4 {
@@ -53,7 +53,6 @@ h4 {
     color: white;
     display: inline-block;
     margin: 10px 0 20px 0;
-    font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
 
@@ -74,7 +73,6 @@ h4 {
 .mission-part h2 {
     text-align: center;
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
     color: rgb(46, 81, 87);
 }
 
@@ -82,7 +80,6 @@ h4 {
     width: 28%;
     padding: 20px;
     border-radius: 40px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .mission-part-item img {
@@ -104,8 +101,6 @@ h4 {
 .text-content-part {
     width: 60%;
     padding-top: 30px;
-
-    font-family: 'Open Sans', sans-serif;
 }
 
 .image-part {
@@ -118,4 +113,24 @@ h4 {
 
 .image-part img {
     width: 90%;
+}
+
+footer {
+    text-align: center;
+    background: #000;
+    padding: 10px 0;
+}
+
+footer h3 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer .footer-year-color {
+    color: rgb(204, 95, 95);
+}
+
+footer p {
+    color: #fff;
 }
