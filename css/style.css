@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.flexible-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexible-container h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(53, 52, 52);
+}
+
+p {
+    color: rgb(102, 98, 98);
+    font-weight: 400;
+
+}
+
+.flexible-container p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-heading-part {
+    margin-top: 60px;
+}
+
+.main-heading-part h1 {
+    border-left: 3px solid rgb(208, 73, 24);
+    padding-left: 10px;
+
+}
+
+.main-heading-part a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 10px 0 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.half-width {
+    width: 40%;
+}
+
+.half-width img {
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.mission-part h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(46, 81, 87);
+}
+
+.mission-part-item {
+    width: 28%;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.mission-part-item img {
+    width: 50%;
+}
+
+#mission-bg-color {
+    background-color: rgb(226, 231, 240);
+}
+
+#vission-bg-color {
+    background-color: #f0d4d4;
+}
+
+#goals-bg-color {
+    background-color: rgb(238, 225, 207);
+}
