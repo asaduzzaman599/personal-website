@@ -47,14 +47,14 @@ h4 {
 
 .common-button {
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 12px 30px;
     background-color: rgb(204, 95, 95);
     border-radius: 5px;
     color: white;
     display: inline-block;
     margin: 10px 0 20px 0;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .half-width {
