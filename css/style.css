@@ -26,6 +26,14 @@ p {
 }
 
 
+.heading-left-line {
+
+    display: inline-block;
+    width: 3px;
+    height: 95px;
+    background-image: linear-gradient(rgb(255, 153, 0), red);
+}
+
 .main-heading-part {
     margin-top: 60px;
 }
@@ -40,7 +48,7 @@ h4 {
 }
 
 .main-heading-part h1 {
-    border-left: 3px solid rgb(208, 73, 24);
+    display: inline-block;
     padding-left: 10px;
 
 }
@@ -66,19 +74,20 @@ h4 {
     margin: 0 auto;
 }
 
-.orange-color {
-    color: orange;
+.text-color {
+    color: #FF8367;
 }
 
-.mission-part h2 {
+h2 {
     text-align: center;
     font-size: 40px;
-    color: rgb(46, 81, 87);
+    color: rgb(46, 73, 87);
 }
 
 .mission-part-item {
     width: 28%;
     padding: 20px;
+    text-align: justify;
     border-radius: 40px;
 }
 
@@ -142,4 +151,20 @@ footer .footer-year-color {
 
 footer p {
     color: #fff;
+}
+
+.project .project-text {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.project-item {
+    width: 28%;
+    box-shadow: 10px 10px 40px #000;
+    text-align: center;
+
+}
+
+.project-item img {
+    width: 100%;
 }
