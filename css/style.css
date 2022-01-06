@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-
     font-family: 'Roboto', sans-serif;
 }
 
@@ -37,6 +36,12 @@ p {
 
 }
 
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(46, 73, 87);
+}
 
 h3 {
     font-size: 35px;
@@ -74,11 +79,6 @@ h4 {
     color: #FF8367;
 }
 
-h2 {
-    text-align: center;
-    font-size: 40px;
-    color: rgb(46, 73, 87);
-}
 
 .mission-part-item {
     width: 28%;
